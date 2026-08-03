@@ -100,7 +100,8 @@ main{
     height: 98.2rem;
     display: flex;
     flex-direction: column;
-    padding-top: 5rem;
+    padding-top: 6rem;
+    gap: 10rem;
 
 }
 .section_1__infos{
@@ -164,3 +165,39 @@ main{
 .menu__liens__active{
     color: var(--colorButton);
 }
+.section_1__infos1{
+    display: flex;
+    width: 105.6rem;
+    height: 12.6rem;
+    border: 8px solid var(--colorLien);
+    border-radius: 3rem;
+    align-self: center;
+    
+}
+ .section_1__infos1__1{
+    width: 33%;
+    height: 100%;
+    border-right: 8px solid var(--colorLien) ;
+    text-align: center;
+
+ }
+.section_1__infos1__2{
+    width: 33%;
+    height: 100%;
+    text-align: center;
+
+}
+.section_1__infos1 p{
+    font-family: var(--fontPoppins);
+    font-weight: bold;
+    font-size: 4rem;
+    color: var(--colorLien);
+}
+.section_1__infos1 span{
+     font-family: var(--fontPoppins);
+    font-weight: medium;
+    font-size: 3.2rem;
+    color: var(--colorLien);
+
+}
+
